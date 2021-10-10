@@ -1,4 +1,4 @@
-package com.pb.psenychko;
+package com.pb.psenychko.hw1;
 
 public class HelloWorld {
     public static void main(String[] args) {
