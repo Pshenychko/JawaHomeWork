@@ -1,5 +1,4 @@
 package com.pb.psenychko.hw4;
-import com.sun.org.apache.xpath.internal.objects.XString;
 
 import java.util.Arrays;
 import java.util.Scanner;
