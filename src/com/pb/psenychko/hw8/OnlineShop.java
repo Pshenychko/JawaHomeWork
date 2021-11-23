@@ -10,7 +10,7 @@ public class OnlineShop {
             System.out.println("Login have to exist between 5 and 20 symbols and only English letter!");
             return;
         } catch (WrongPasswordException e2) {
-            System.out.println("Login have to exist between 5 and 20 symbols only English letter!");
+            System.out.println("Password have to exist between 5 and 20 symbols only English letter!");
             return;
         }
         try {
