@@ -18,7 +18,7 @@ public class FileNumbers {
     }
 
     public static void crateNumbersFile() throws IOException {
-        Path path = Files.createFile(Paths.get("C:\\Users\\Олександр\\IdeaProjects\\JawaHomeWork\\src\\com\\pb\\psenychko\\numbers.txt"));
+        Path path = Files.createFile(Paths.get("C:\\Users\\Олександр\\IdeaProjects\\JawaHomeWork\\src\\com\\pb\\psenychko\\hw9\\numbers.txt"));
         Random r = new Random();
         try (BufferedWriter writer = Files.newBufferedWriter(path)) {
             for (int i = 0; i < 100; i++) {
@@ -32,7 +32,7 @@ public class FileNumbers {
     }
 
     public static void createOddNumbersFile() throws IOException {
-        Path path = Paths.get("C:\\Users\\Олександр\\IdeaProjects\\JawaHomeWork\\src\\com\\pb\\psenychko\\numbers.txt");
+        Path path = Paths.get("C:\\Users\\Олександр\\IdeaProjects\\JawaHomeWork\\src\\com\\pb\\psenychko\\hw9\\numbers.txt");
         try {
             Scanner scanner = new Scanner(path);
             int n = 0;
@@ -50,7 +50,7 @@ public class FileNumbers {
                     bb[i] = 0;
             }
 
-            Path secondPath = Files.createFile(Paths.get("C:\\Users\\Олександр\\IdeaProjects\\JawaHomeWork\\src\\com\\pb\\psenychko\\odd-numbers.txt"));
+            Path secondPath = Files.createFile(Paths.get("C:\\Users\\Олександр\\IdeaProjects\\JawaHomeWork\\src\\com\\pb\\psenychko\\hw9\\odd-numbers.txt"));
             try (BufferedWriter w = Files.newBufferedWriter(secondPath)) {
                 for (int i = 0; i <= bb.length - 1; i++) {
                     if (i % 10 == 0 && i != 0) {
